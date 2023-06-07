@@ -1,6 +1,8 @@
 /*
  * Praktikumsversuch: Einführung in die Sprache C
  * Berechnungs-Modul
+
+ 
  */
 
 # include "graphic.h"
@@ -19,6 +21,8 @@
 //	Aktuellen Animationspuffer
 void berechnung(void)
 {
+	int hallotest;
+	int neueVariable;
 	int row,col;
 	int b[LD.zeilen+2][LD.spalten+2];// erzeugt eine Zwischenmatrix des nächsten Animationsschrittes.
 
